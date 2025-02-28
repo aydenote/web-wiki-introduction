@@ -83,6 +83,11 @@ div.thumbnail {
   object-fit: cover;
 }
 
+.thumbnail.book{
+  display: flex;
+  justify-content: center;
+}
+
 section::after {
   content: "";
   display: block;
